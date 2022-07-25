@@ -1,0 +1,459 @@
+@media screen and (max-width: 1350px){
+    .front-view h1{
+        font-size: 4rem;
+        padding: 3em 0em 0em .5em;
+        z-index: 99;
+    }
+    .blob-main{
+        z-index: -99;
+    } 
+    .lang-container{
+        padding: 5rem 10rem 5rem 10rem;
+    }
+}
+
+@media screen and (max-width: 1270px){
+    .blob-1{
+        width: 700px;
+        height: 700px;
+    }
+    .blob { 
+        width: 800px;
+        height: 800px;
+    }
+    .edward{
+        width: 400px;
+        height: 620px;
+    }
+    .lang-container{
+        padding: 5rem 5rem 5rem 5rem;
+    }
+}
+
+@media screen and (max-width: 1200px){
+    .front-view h1{
+        font-size: 3.7rem;
+        padding-top: 13rem;
+    }
+    .blob-1{
+        width: 650px;
+        height: 650px;
+    }
+    .blob { 
+        width: 750px;
+        height: 750px;
+    }
+    .edward{
+        width: 350px;
+        height: 570px;
+    }
+    .lang-container{
+        padding: 5rem 2rem 5rem 2rem;
+    }
+}
+
+@media screen and (max-width: 1110px){
+    .front-view h1 {
+        font-size: 3.4rem;
+    }
+    
+}
+
+@media screen and (max-width: 1060px){
+    .front-view{
+        height: 100vh;
+    }
+    .front-view h1 {
+        font-size: 3.2rem;
+    }
+    
+    .blob-1{
+        width: 600px;
+        height: 600px;
+    }
+    .blob { 
+        width: 700px;
+        height: 700px;
+    }
+    .edward{
+        width: 300px;
+        height: 540px;
+    }
+
+    /* about responsive */
+    .about-txt{
+        padding: 5rem 0rem 2rem 4.5rem;
+    }
+
+}
+
+@media screen and (max-width: 1010px){
+    .front-view{
+        height: 157vh;
+        display: block;
+    }
+    .front-view h1 {
+        font-size: 4rem;
+        text-align: center;
+        padding-top: 8rem;
+    }
+    .blob-main{
+        padding-top: 50px;
+        width: 100%;
+        margin: 0 auto;
+        height: 100vh;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+    }
+    .blob-1{
+        width: 600px;
+        height: 600px;
+        right: 21%;
+    }
+    .blob { 
+        width: 700px;
+        height: 700px;
+        right: 21%;
+    }
+    .edward{
+        width: 300px;
+        height: 540px;
+        right: 32%;
+    }
+    .lang-container{
+        padding: 5rem 2rem 5rem 2rem;
+    }
+
+    /* about responsiveness */
+    .about-txt{
+        padding: 5rem 0rem 2rem 4.5rem;
+    }
+    .about-txt h1{
+        font-size: 2.2rem;
+    }
+    .about-txt h1::after{
+        width: 11rem;
+        height: 4px;
+    }
+    .about-txt p{
+        font-size: 1rem;
+        line-height: 25px;
+    }
+
+}
+
+@media screen and (max-width: 970px){
+    .lang-container{
+        grid-template-columns: 1fr;
+        grid-row-gap: 10px;
+        margin: 0 auto;
+    }
+    .lang{
+        text-align: center;
+        border: 1px solid #D36527;
+        border-radius: 10px;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        transition: .5s ease;
+    }
+    .lang:hover{
+        background-color: #D36527;
+    }
+    .lang-1{
+        text-align: center;
+        border: 1px solid #D36527;
+        border-radius: 10px;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 1.4em;
+        transition: .5s ease;
+    }
+    .lang-1:hover{
+        background-color: #D36527;
+    }
+    .line-skill::after {
+        content: none;
+    }
+    .line-skill-2::after {
+        content: none;
+    }
+    #myinput {
+        background: linear-gradient(to right, #D36527 0%, #D36527 90%, #fff 90%, #fff 100%);
+    }
+    #myinput[type=range]::-webkit-slider-thumb {
+        margin-top: -2px;
+        background: #ffffff;
+    }
+    .lang:hover #myinput {
+        background: linear-gradient(to right, #ffffff 0%, #ffffff 90%, #fff 90%, #D36527 100%);
+    }
+    .lang-1:hover #myinput {
+        background: linear-gradient(to right, #ffffff 0%, #ffffff 90%, #fff 90%, #D36527 100%);
+    }
+    
+}
+/* about page */
+@media screen and (max-width: 900px){
+    .about-container{
+        grid-template-columns: 1fr;
+        padding-bottom: 5rem;
+        display: flex;
+        flex-direction: column-reverse;
+        padding-bottom: 2rem;
+    }
+    .about-txt{
+        padding: 5rem 2rem 2rem 2rem;
+        text-align: center;
+    }
+    .about-txt h1::after{
+        margin: auto;
+    }
+    .about-img{
+        display: block;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 4rem;
+    }
+    .about-btn{
+        margin: 2.5rem 4.5rem 0rem 4rem;
+    }
+}
+@media screen and (max-width: 800px){
+    .blob-1{
+        right: 18%;
+    }
+    .blob { 
+        right: 18%;
+    }
+    .edward{
+        right: 29%;
+    }
+}
+@media screen and (max-width: 760px){
+    /* project page */
+    .grid-container {
+        grid-template-columns: 1fr;
+        grid-gap: 20px;
+    }
+    .grid-container > div{
+        font-size: 2rem;
+    }
+    .project-view h1{
+        text-align: center;
+    }
+    .project-view h1::after{
+        width: 10.3rem;
+        height: 4px;
+        margin: auto;
+    }
+    .item3{
+        grid-column: 1;
+    }
+}
+@media screen and (max-width: 700px){
+    .front-view h1{
+        font-size: 3.4rem;
+        padding-left: 3em 0em 0em 0em;
+    }
+    .blob-1{
+        right: 15%;
+    }
+    .blob { 
+        right: 15%;
+    }
+    .edward{
+        right: 32%;
+    }
+}
+@media screen and (max-width: 600px){
+    .name{
+        padding-left: 2em;
+    }
+    .menu{
+        padding-right: 2em;
+    }
+    .blob-1{
+        right: 10%;
+    }
+    .blob { 
+        right: 10%;
+    }
+    .edward{
+        right: 28%;
+    }
+}
+@media screen and (max-width: 550px){
+    .name{
+        padding-left: 1.5em;
+    }
+    .menu{
+        padding-right: 1em;
+    }
+    .front-view{
+        height: 140vh;
+    }
+    .front-view h1{
+        font-size: 3rem;
+        line-height: 60px;
+    }
+    .blob-1{
+        width: 500px;
+        height: 500px;
+        right: 8%;
+    }
+    .blob { 
+        right: 8%;
+        width: 600px;
+        height: 600px;
+    }
+    .edward{
+        width: 250px;
+        height: 440px;
+        right: 28%;
+    }
+    .submit{
+        display: inline-block;
+        text-align: center;
+    }
+    .submit input{
+        margin-left: 50px;
+    }
+    .submit-btn{
+        margin-top: 20px;
+    }
+    .submit input{
+        padding: 1em 0em 1em 0em;
+        margin-left: 1px;
+    }
+}
+
+@media screen and (max-width: 460px){
+    .blob-1{
+        width: 450px;
+        height: 450px;
+        right: 5%;
+    }
+    .blob { 
+        right: 5%;
+        width: 550px;
+        height: 550px;
+    }
+    .edward{
+        width: 250px;
+        height: 400px;
+        right: 22%;
+    }
+    footer{
+        display: block;
+        text-align: center;
+        height: 5vh;
+    }
+    .policy p{
+        padding-left: 0em;
+        line-height: 12vh;
+    }
+    .social-icons{
+        padding-bottom: 2rem;
+        padding-right: 0em;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+    }
+    
+    /* About res */
+    .about-img img{
+        width: 400px;
+        height: 630px;
+        margin-top: -120px;
+    }
+    .about-txt{
+        padding: 5rem 2rem 2rem 2rem;
+        text-align: center;
+    }
+    .about-txt h1::after{
+        margin: auto;
+    }
+
+    /* project Page */
+    .project-view{
+        width: 90%;
+    }
+    .project-view h1{
+        font-size: 2rem;
+    }
+    .project-view h1::after{
+        width: 8.2rem;
+        height: 4px;
+    }
+    .grid-container > div{
+        padding: 4rem 0rem;
+        font-size: 2rem;
+    }
+
+}
+@media screen and (max-width: 435px){
+    #myinput {
+        height: 7px;
+        width: 250px;
+    }
+}
+
+@media screen and (max-width: 390px){
+    .name{
+        padding-left: 0.5em;
+        font-size: 23px;
+    }
+    .menu{
+        padding-right: 1em;
+    }
+    .menu ul li{
+        padding: 0em .5em;
+    }
+    .menu ul li a{
+        font-size: 1rem;
+    }
+    .blob-1{
+        width: 410px;
+        height: 410px;
+        right: 3%;
+    }
+    .blob { 
+        right: 3%;
+        width: 510px;
+        height: 510px;
+    }
+    .edward{
+        width: 210px;
+        height: 375px;
+        right: 29%;
+    }
+    #myinput {
+        height: 7px;
+        width: 220px;
+    }
+
+
+    /* About res */
+    .about-img img{
+        width: 350px;
+        height: 580px;
+        margin-top: -120px;
+    }
+    .about-txt{
+        padding: 5rem 2rem 2rem 2rem;
+        text-align: center;
+    }
+    .about-txt h1::after{
+        margin: auto;
+    }
+
+}
+
+
+/* ---- About Me Section New Page ---- */
+/* ---- About Me Responsiveness ---- */
+

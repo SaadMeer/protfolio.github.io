@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.6.0.js"
+        integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="res/res.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link rel="stylesheet" href="./res/res.css">
+    <title>Protfolio 1</title>
+</head>
+
+<body>
+
+    <header>
+        <div class="name"><a href="index.html"><h3>Edward</h3></a></div>
+        <div class="menu">
+            <ul>
+                <li><a href="project.html">Projects</a></li>
+                <li class="line"><a href="about.html" class="line-a">About me</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <div class="front-view">
+        <div class="blob-a">
+        <h1>I'm Edward<br><span>Web Designer &<br>Developer</span></h1>
+        </div>
+        <div class="blob-main">
+        <div class="blob-1"></div>
+        <div class="blob"></div>
+        <div class="edward"></div>
+        </div>
+    </div>
+    
+    <div class="skills-container">
+        <h1>Skills</h1>
+        <div class="lang-container">
+            <div class="lang">
+                <h3>React JS</h3>
+                <div class="chrome">
+                    <input id="myinput" min="0" max="100" type="range" value="95" />
+                    <span>95</span>
+                    <text>%</text>
+                </div>
+            </div>
+            <span class="line-skill"></span>
+            <span class="line-skill-2"></span>
+            <div class="lang-1">
+                <h3>PHP</h3>
+                <div class="chrome">
+                    <input id="myinput" min="0" max="100" type="range" value="96" />
+                    <span>96</span>
+                    <text>%</text>
+                </div>
+            </div> 
+            <div class="lang">
+                <h3>Node JS</h3>
+                <div class="chrome">
+                    <input id="myinput" min="0" max="100" type="range" value="90" />
+                    <span>90</span>
+                    <text>%</text>
+                </div>
+            </div>
+            <span class="line-skill"></span>
+            <span class="line-skill-2"></span>
+            <div class="lang-1">
+                <h3>HTML/CSS</h3>
+                <div class="chrome">
+                    <input id="myinput" min="0" max="100" type="range" value="96" />
+                    <span>97</span>
+                    <text>%</text>
+                </div>
+            </div>
+            <div class="lang">
+                <h3>JavaScript</h3>
+                <div class="chrome">
+                    <input id="myinput" min="0" max="100" type="range" value="90" />
+                    <span>90</span>
+                    <text>%</text>
+                </div>
+            </div>
+            <span class="line-skill"></span>
+            <span class="line-skill-2"></span>
+            <div class="lang-1">
+                <h3>MY SQL</h3>
+                <div class="chrome">
+                    <input id="myinput" min="0" max="100" type="range" value="96" />
+                    <span>98</span>
+                    <text>%</text>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="hire-me">
+        <h1>Hire Me</h1>
+        <h3>Write a message or give me a call<br>
+            and we’ll discuss about your<br>
+            project
+        </h3>    
+
+        <div class="submit">
+            <input type="text" placeholder="Type Here ...">
+            <button class="submit-btn">Submit</button>
+        </div>
+    </div>
+
+    <footer>
+        <div class="policy">
+            <p>Powered by <span>Thematic</span></p>
+            </div>
+            <div class="social-icons">
+                <ul>
+                    <li><a href=""><i class="fab fa-facebook-f"></i></a></li>
+                    <li><a href=""><i class="fab fa-twitter"></i></a></li>
+                    <li><a href=""><i class="fab fa-instagram"></i></a></li>
+                    <li><a href=""><i class="fab fa-youtube"></i></a></li>
+                    <li><a href=""><i class="fab fa-pinterest"></i></a></li>
+                </ul>
+        </div>
+    </footer>
+
+    
+    
+    
+    <script type="text/javascript">
+    
+    var weightfactor1 = parseInt(document.getElementById("weight1").value) ;
+    
+        document.getElementById('val_weight1').innerHTML = (weightfactor1 / weight_factor_sum)*100;
+    
+    </script>
+    <script>
+        document.getElementById("myinput").oninput = function() {
+            var value = (this.value-this.min)/(this.max-this.min)*100
+            this.style.background = 'linear-gradient(to right, #D36527 0%, #D36527 ' + value + '%, #fff ' + value + '%, white 100%)'
+        };
+    </script>
+
+    <!-- javascript -->
+    <script src="./js/app.js"></script>
+</body>
+
+</html>
+
